@@ -1,0 +1,33 @@
+{
+  "name": "create-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-pro": "index.js"
+  },
+  "scripts": {
+    "dev": "unbuild --stub && node ./dist/index.mjs",
+    "build": "unbuild"
+  },
+  "files": [
+    "index.js",
+    "tpl-*",
+    "dist"
+  ],
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompts": "^2.0.14",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.6.0",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2",
+    "unbuild": "^0.8.11"
+  }
+}

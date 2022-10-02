@@ -1,0 +1,24 @@
+{
+   // 包含的文件或目录
+  "include": ["src"],
+  "compilerOptions": {
+    // 输出目录
+    "outDir": "dist",
+    // 目标代码es版本
+    "target": "ES2020",
+    // 生成的es版本
+    "module": "ES2020",
+    // 处理模块 (谁来处理？)
+    "moduleResolution": "Node",
+    // 严格模式是否开启
+    "strict": true,
+    // 是否生成 d.ts 文件
+    "declaration": false,
+    // 是否生成 .map 文件
+    "sourceMap": false,
+    // 未使用的局部变量是否报错
+    "noUnusedLocals": true,
+    // 开启后 可规避部分库的导出导入的问题 
+    "esModuleInterop": true
+  }
+}
